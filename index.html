@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> KidsNookClub </title>
+<link rel="icon" href="" type="image/x-icon">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1 user-scalable=no">
+  <meta name="Keywords" content="Kids entertainment,outing,funplace,playroom,salon,gaming,paintingbarber,library,electric cars">
+  <meta name="Description" content="Play ground for kids with a state of the art salon,gaming room,library with board games,electric cars and more.">
+  <meta name="author" content="Frank">
+<style>
+button{font-size:20px;}
+#backHOME {margin-left:88%;
+        font-size:20px;
+        margin-bottom:1%;
+        }
+@media (max-width:400px){
+button{font-size:18px;}
+#backHOME{font-size:18px;
+      margin-left:60%;
+               margin-bottom:2%;
+          
+               margin-top:2%;}
+}
+#address {background-color:lightgrey;
+          }
+#insta {height:35px;
+       width:35px;}
+address, #info {display:inline-block;
+               width:40%;
+               margin-left:5%;
+               vertical-align:top;
+                font-size:20px;
+               }
+@media (max-width:400px){
+address, #info {display:block;
+               width:90%;
+               margin-left:5%;
+               
+                font-size:17px;
+               }
+
+}
+#services {margin-left:2%;        
+           }
+h2 {text-align:center;}
+#images {display:none;
+       text-align:center;}
+#images img{
+        width:30%;
+        height:280px;
+        }
+#par1 img,p{display:inline-block;
+          width:46%;
+         margin:1%; }
+
+#par1 img{
+          height:380px;
+          }
+#par1 p{
+         vertical-align:top;
+          }
+
+@media (max-width:400px){
+#images img{
+        
+        height:175px;
+        }
+#par1 img,p {display:block;
+           width:90%
+           }
+#par1 img {height:275px;}
+}
+.links {width:50%;
+       margin:0 auto;}
+.links #links1,#links2{display:inline-block;
+                       font-size:21px;
+                       }
+li {padding:3px;}
+@media (max-width:400px){
+.links {width:90%;
+        margin:0 auto;}
+.links #links1,#links2{display:inline-block;
+                       font-size:19px;
+                       }
+li {padding:1.5px;}
+
+}
+
+ h1 {text-align:center;
+    font-size:30px;}
+@media (max-width:400px){
+h1 {font-size:25px;}
+}
+p {font-size:20px;}
+#nav {text-align: center;
+     background-color:lightgrey;
+         padding-top:50px;
+    padding-bottom:50px;
+  }
+#navigation a {text-decoration:none;
+    font-size:22px;
+    padding-left:5%;
+    padding-right:5%;
+    }
+@media (max-width:400px){
+#navigation a {padding-left:1.25px;
+   padding-right:1.25px;
+   font-size:18px;}
+}
+#intro canvas, p {display:inline-block;
+                   width:48%;
+       }
+@media (max-width:400px){
+#intro canvas,p {display:block;
+                 width:90%;
+                 margin-left:5%;
+                font-size:17px;}
+#intro canvas {height:90px;
+}
+
+</style>
+</head>
+</body>
+
+<div id="nav">
+<nav id="navigation">
+<a href="kidsnookHOME.html">HOME </a>
+<a href="kidsnookNEWS.html">NEWS </a>
+<a href="kidsnookABOUT.html">ABOUT </a>
+<a href="kidsnookCONTACT.html">CONTACT </a>
+</nav>
+</div>
+
+
+<div id="intro">
+
+
+<canvas id="kidsnook" width="700" height="170" style=" opacity:20;">
+Your browser does not support the canvas element.
+</canvas>
+
+<script>
+var text = document.getElementById("kidsnook");
+var ctx=text.getContext("2d");
+var grd =ctx.createLinearGradient(230,150,500,150);
+grd.addColorStop(0,"#FF7903");
+grd.addColorStop(1,"#0385FF");
+ctx.font="60px Georgia";
+ctx.fillStyle=grd
+ctx.fillText("Welcome To KidsNook.", text.width/30, text.height/1.9);
+ctx.font="40px Georgia";
+ctx.fillText("Play, Create, Get Pampered.", text.width/10, text.height/1.3);
+</script>
+
+<p>
+The Ultimate Destination for Fun and Beauty!We have a wide range of services to keep your child engaged and entertained.We have an indoor playground,
+  painting activities, electric cars, library and board games, restaurant, gaming room,party packages, the best kids salon in town and much more.
+ At Kidsnook, we prioritize the safety and well-being of your child and provide amenities
+ for parents. Come visit us for a day of fun, education, and beauty!
+</p>
+</div><hr>
+<H1>Our services</h1>
+
+<section class="links">
+<div id=links1>
+<ul>
+<li> <a href="#salon">View our Salon</a></li>
+<li> <a href="#gaming room">View our Gaming room</a></li>
+<li> <a href="#library">View our library</a></li>
+<li> <a href="#sunshine">View our sunshine room</a></li>
+</ul>
+</div>
+
+<div id=links2>
+<ul>
+<li> <a href="#electric cars">View our Electric cars</a></li>
+<li> <a href="#painting">View our painting activities</a></li>
+<li> <a href="#trampoline">View our Trampoline</a></li>
+</ul>
+</div>
+</section><hr>
+<h1 id="salon">Salon</h1>
+<div id="services">
+<div id="par1" >
+  <img src="salon.jpg" alt="kidsnook salon">
+<p>
+Kidsnook salon section ensures your kid gets the latest and trending hairstyles at an affordable rate. The salon caters
+ to children of all ages, and the stylists are experienced in working with young clients to create a look that is both stylish
+ and age-appropriate. The atmosphere is fun and kid-friendly, with colorful decor and amenities to keep children entertained during
+ their visit.They can watch their favourite cartoon and eat their snacks as their hair is done. Whether your child needs a simple trim
+ or a complete hair transformation, Kidsnook salon is the perfect destination for parents looking for quality hair care for their little
+ ones.
+</p>
+</div><hr>
+
+<h1 id="gaming room">Gaming room </h1>
+
+<div id="par1" >
+
+<img src="gamingroom.png" width="300" height="150" alt="Kidsnook gaming room"> 
+<p>
+Step into a world of imagination and excitement at Kidsnook Gaming Room! Our state-of-the-art gaming equipment features the latest
+ PS5 and VR games, designed to give your child an unforgettable gaming experience. With stunning graphics and seamless gameplay, our
+ games will keep your child engaged and entertained for hours. And with a safe and supervised environment, you can relax knowing your
+ child is having fun in a secure setting. So why settle for ordinary gaming when you can give your child the ultimate gaming adventure?
+ Visit Kidsnook Gaming Room today and let the fun begin!
+<strong>Click the button to view the games available</strong>
+
+<button onclick="displayimages()"> view games </button>
+</p>
+
+</div>
+
+
+
+
+<div id="images">
+<img id="games1" width="40%" height="550px" alt="Fifa23">;
+<img id="games2" width="40%" height="550px" alt="Fortnite">;
+<img id="games3" width="40%" height="550px" alt="God of war ragnarok">;
+<img id="games4" width="40%" height="550px" alt="DC Universe">;
+<img id="games5" width="40%" height="550px" alt="NBA 2K23">;
+<img id="games6" width="40%" height="550px" alt="Astro's Playroom">;
+<img id="games7" width="40%" height="550px" alt="Spiderman Miles Morales">;
+<img id="games8" width="40%" height="550px" alt="Sackboy A big boy adventure">;
+</div>
+
+
+<script >
+function displayimages(){
+var image1=document.getElementById ("games1");
+var image2=document.getElementById ("games2");
+var image3=document.getElementById ("games3");
+var image4=document.getElementById ("games4");
+var image5=document.getElementById ("games5");
+var image6=document.getElementById ("games6");
+var image7=document.getElementById ("games7");
+var image8=document.getElementById ("games8");
+
+games1.src="images (2).jpeg";
+games2.src="images (3).jpeg";
+games3.src="images (4).jpeg";
+games4.src="images (5).jpeg";
+games5.src="download.jpeg";
+games6.src="download (1).jpeg";
+games7.src="download (2).jpeg";
+games8.src="sackboy (2).jpg";
+images.style.display="block";
+}
+</script> 
+
+
+<hr>
+<h1 id="library">Library </h1>
+
+<div id="par1" >
+<img src="20230416_135553.png" width="300" height="150" alt="Library"> 
+<p>
+Kidsnook Library is a great place for children to learn and have fun. With books and comics for kids of all ages, they can read 
+exciting stories and develop their reading skills. The library also offers educational games and puzzles that sharpen problem-solving
+ skills. Kids can even borrow books and comics for a small fee. Plus, Kidsnook Library is a welcoming community hub where kids can connect
+ with others and attend events and programs. Bring your child to Kidsnook Library for an unforgettable journey of exploration and discovery!
+</p> 
+</div>
+<hr>
+<h1 id="sunshine">Sunshine room </h1>
+<div id="par1" >
+
+<img src="20230416_143931.png" width="300" height="150" alt="Sunshine room"> 
+<p>
+The Sunshine Room at Kidsnook is a colorful and safe space for small children to play and have fun. Equipped with interactive games,
+ puzzles, blocks, and soft mats, kids can enhance their cognitive and social skills while enjoying themselves. The caring staff ensures
+ the safety and happiness of the children while parents can relax. Additionally, the room includes art supplies to foster creativity.
+</p>
+
+</div>
+
+<hr>
+<h1 id="electric cars">Electric cars</h1>
+<div id="par1" >
+<img src="20230416_151405.png" width="300" height="150" alt="Electric cars"> 
+
+<p>
+Kidsnook Electric Cars is an exciting attraction for kids where they can ride a range of electric cars for 15 minutes and have fun. 
+Children can choose from a variety of cars, including sports cars, dump truck, quad bike, jeeps and much more. The cars are safe and easy 
+for kids to operate, with simple controls and adjustable speeds. Younger children can ride in remote controlled cars, while older kids can
+ drive their own car and test their driving skills. Safety is a top priority, with regularly maintained cars and a safety briefing before
+ each ride. Kidsnook Electric Cars is a fantastic way for kids to have fun and experience the thrill of driving, making it a perfect family 
+outing or birthday party idea.</p>
+</div>
+<hr>
+<h1 id="painting">Painting</h1>
+<div id="par1" >
+
+<img src="20230416_155620.png" width="300" height="150" alt=" Kidsnook Painting">
+<p>
+
+Introducing Kidsnook Painting - the perfect creative activity for kids! With a variety of paint colors and canvases, 
+children can unleash their imaginations and create their own masterpiece while promoting fine motor skills and self-expression.
+ Our non-toxic paint and easy-to-follow instructions ensure a safe and enjoyable painting experience. Order now and give your child 
+the gift of creativity!
+</p>
+ 
+</div>
+<hr>
+<h1 id="trampoline">Trampoline</h1>
+<div id="par1" >
+<img src="trampoline.jpg" width="300" height="150" alt=" Kidsnook Trampoline"> 
+<p>
+At Kidsnook, we offer a safe and exciting trampoline experience for kids. 
+Our trampolines are designed with a sturdy frame and soft bouncing surface to ensure a fun and safe jumping experience.
+ Kids can burn off energy and have fun while improving their balance and coordination. Come visit us and try out our trampolines today!</p>
+</div>
+</div>
+
+<button id="backHOME" onclick="window.location.href='kidsnookHOME.html'"> Back to top </button><br>
+<div id="address">
+<address >
+Lavington<br>
+P.O. Box 7272<br>
+Nairobi,Kenya.<br> 
+Email:<a href="mailto:kidsnook2023@gmail.com">kidsnook2023@gmail.com</a>  <br><br>
+</address>
+
+<div id=info>
+OPen: Tuesday - Sunday<br>
+OPen from: 9:00 am - 6:00 pm<br>
+NOTE: On sunday we open at 11:00 am<br>
+Closed: Monday<br>
+<span style="vertical-align:top;">Follow us:</span><a href="https://www.instagram.com/kidsnook_club/"><img src="icon.png" alt="instagram" id="insta"></a>
+
+</div>
+</div>
+
+</body>
+</html>
